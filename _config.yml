@@ -1,11 +1,11 @@
 menu:
     Blog: /
     Archive: /archives/
-    Weibo: http://weibo.com/sunchongsheng
-    GitHub: https://github.com/pinggod
-    Rss: /atom.xml
+    Weibo: https://weibo.com/u/2698628733
+    GitHub: https://github.com/RecherJ
+    RSS: atom.xml
 
-favicon: /favicon.png
+favicon: /favicon.ico
 logo: /favicon.png
 
 # Comment
@@ -18,4 +18,4 @@ duoshuo:
 ga: UA-65933410-1
 
 # Copyright Infomation
-startyear: 2015
+startyear: 2016
