@@ -1,7 +1,7 @@
 
 
 .home-bg {
-    background-color: white;
+    // background-color: white;
     position: absolute;
     top: 0;
     left: 0;
@@ -26,5 +26,48 @@
     }
     .user-info {
         color: #acacac;
+    }
+    .bottom-block {
+        background-color: aqua;
+        width: 11rem;
+        margin: 0 auto;
+        .btn-item {
+            height: 2rem;
+            width: 4.5rem;
+            line-height: 2rem;
+            text-align: center;
+            color: #e0e0e0;
+            border-radius: 1rem;
+            border: 1px solid #acacac;
+        }
+        .btn-item:hover {
+            color: white;
+            border: 0.9px solid white;
+        }
+        .blog {
+            float: left;
+        }
+        .about {
+            float: right;
+        }
+    }
+    .contact-block {
+        // background-color: brown;
+        color: #ececec;
+        width: 8rem;
+        margin: 5rem auto;
+        display: flex;
+        display: -webkit-flex;
+        justify-content: space-between;
+        -webkit-justify-content: space-between;
+        flex-direction: row;
+        -webkit-flex-direction: row;
+        align-items: center;
+        align-content: center;
+        .social {
+            font-size: 1.4rem;
+            display: flex;
+            display: -webkit-flex;
+        }
     }
 }
